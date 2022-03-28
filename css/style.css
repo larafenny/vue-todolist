@@ -16,4 +16,12 @@ h1{
 #todo{
     background-color: lightgrey;
     height: 100vh;
+    font-size: 24px;
 }
+
+li{
+    list-style-type: none;
+    padding-top: 50px;
+    text-align: center;
+}
+
