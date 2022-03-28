@@ -16,6 +16,32 @@ Bonus:
 2- cliccando sul testo dell'item, invertire il valore della proprietà done del todo corrispondente (se done era uguale a false, impostare true e viceversa)*/
 
 const app = new Vue({
-    el: '#todo'
+    el: '#todo',
+    data: todo
+    }
+});
 
-})
+// Creo oggetto con due propietà che conterrà le cose da fare
+const todo = [
+    {
+        text: 'cosa da fare 1',
+        done: 'true'
+    },
+    {
+        text: 'cosa da fare 2',
+        done: 'true'
+    },
+    {
+        text: 'cosa da fare 3',
+        done: 'flase'
+    },
+    {
+        text: 'cosa da fare 4',
+        done: 'true'
+    },
+    {
+        text: 'cosa da fare 5',
+        done: 'false'
+    },
+
+]
