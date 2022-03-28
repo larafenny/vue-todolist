@@ -19,9 +19,16 @@ h1{
     font-size: 24px;
 }
 
+ul{
+    display: flex;
+    flex-direction: column;
+}
+
 li{
     list-style-type: none;
-    padding-top: 50px;
     text-align: center;
+    border: solid 1px lightskyblue;
+    line-height: 100px;
+    height: 100px;
 }
 
